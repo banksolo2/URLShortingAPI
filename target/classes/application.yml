@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: URLShortingAPI
+  datasource:
+    url: jdbc:mysql://localhost:3306/shorting_url_db
+    username: root
+    password: Olotu1234_
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
