@@ -6,6 +6,8 @@ VERSION: 1.0.0
 AUTHOR: Oluwaseun Joseph Olotu
 DATABASE: MySql
 DATABASE_NAME: shorting_url_db
+DESCRIPTION: A RESTful API service for shortening URLs, allowing users to create, retrieve, update, and delete shortened URLs, as well as track access statistics
+ProjectURL: http://localhost:8080/shorten
 
 
 
